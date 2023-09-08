@@ -11,7 +11,7 @@ public class Opskrift {
     ArrayList<Ingredienser> opskrift = new ArrayList<Ingredienser>();
 
     public void createIngredienser() {
-
+        // ingrediens mængder og kcal er beregnet efter 'originalen' 4 personer, de beregnes dermed efter *(nyt antal/originalt(4))
         Ingredienser mælk = new Ingredienser("mælk", 1, "liter", 600);
         Ingredienser mel = new Ingredienser("mel", 500, "gram", 1500);
         Ingredienser æg = new Ingredienser("æg", 3, "stk", 300);

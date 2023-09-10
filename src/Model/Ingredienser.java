@@ -9,6 +9,7 @@ public class Ingredienser {
 
     private double vægtPrEnhed;
 
+    // constructor, der sætter attributes for hver instans af Ingredienser -> for hver ingrediens
     public Ingredienser(String type, double mængde, String unit, double Kcal) {
         this.type = type;
         this.mængde = mængde;
@@ -16,6 +17,7 @@ public class Ingredienser {
         this.Kcal = Kcal;
     }
 
+    // metoder skabes for at kunne 'get' og 'set'
     public String getType() {
         return this.type;
     }
